@@ -439,7 +439,8 @@ input[type='file']::file-selector-button {
  	 	 	<div class='wf-label'>Closing Date</div>
  	 	 	<div class='wf-field wf-field-mandatory'>
  	 	 	 	<div class='wf-field-inner'>
- 	 	 	 	<input fvalidate='true' ftype='date' type='date' name='Closing Date' maxlength='20' value='' placeholder='MM/dd/yyyy' class='wf-field-item wf-field-input wf-field-item-date' onchange='removeError(this);' onclick='this.showPicker();'>
+ 	 	 	 	<input fvalidate='true' ftype='date' type='date' name='Closing Date' maxlength='20' value='' placeholder='MM/dd/yyyy' class='wf-field-item wf-field-input wf-field-item-date' 
+				       ='removeError(this);' onclick='this.showPicker();'>
  	 	 	 	</div>
  	 	 	</div>
  	 	</div>
@@ -448,7 +449,7 @@ input[type='file']::file-selector-button {
  	 	 	<div class='wf-field'>
  	 	 	 	<div class='wf-field-inner'>
  	 	 	 	 	<label for='theFile' class='wform-file-upload-input-label cP'>Browse</label>
- 	 	 	 	 	<input type='file' name='theFile' id='theFile' class='wf-field-item wf-field-input wform-field-item-upload-input' onchange='removeError(this)' multiple/>
+ 	 	 	 	 	<input type='file' name='theFile' id='theFile' class='wf-field-item wf-field-input wform-field-item-upload-input' multiple/>
  	 	 	 	</div>
  	 	 	 	<div class='wf-field-help-text'>File(s) size limit is 20MB.</div>
  	 	 	 	<div class='wf-field-help-text'>
